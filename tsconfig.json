@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",            
-    "lib": ["es2015"],          
+    "target": "es5",
+    "lib": ["es2015"],
     "strict": true,
+    "baseUrl": "./",
+    "module": "es2015",
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true
   }
 }
